@@ -1,11 +1,7 @@
 import json
 from client import Client
-from websocket import WebSocketApp
-import requests
-import math
 import time
 import threading
-import re
 import aiohttp
 import asyncio
 

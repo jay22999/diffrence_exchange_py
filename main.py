@@ -5,16 +5,13 @@ from getio import Getio
 from wazirx import Wazirx
 from kucoin import Kucoin
 from mexc import Mexc
-from itertools import combinations
 import threading
 import requests
 import socketio
 import aiohttp
 import time
-import math
 import gzip
 import json
-import simpleaudio as sa
 import copy
 
 
