@@ -1,55 +1,49 @@
 {
   "symbol_json_data": {
-    "METIS": {
-      "per": 0.14,
+    "POKT": {
+      "per": 0.87,
       "buy_exchange": "GATEIO",
       "sell_exchange": "MEXC",
       "trigger": false
     },
-    "DEGO": {
-      "per": -0.21,
+    "ORDI": {
+      "per": -0.29,
       "buy_exchange": "GATEIO",
       "sell_exchange": "KUCOIN",
       "trigger": false
     },
-    "ORDI": {
-      "per": -0.36,
-      "buy_exchange": "GATEIO",
-      "sell_exchange": "MEXC",
+    "METIS": {
+      "per": -0.32,
+      "buy_exchange": "MEXC",
+      "sell_exchange": "GATEIO",
       "trigger": false
     },
-    "RATS": {
-      "per": -0.48,
-      "buy_exchange": null,
-      "sell_exchange": null,
-      "trigger": false
-    },
-    "AXS": {
-      "per": -0.49,
-      "buy_exchange": null,
-      "sell_exchange": null,
-      "trigger": false
-    },
-    "KDA": {
+    "SATS": {
       "per": -0.5,
       "buy_exchange": null,
       "sell_exchange": null,
       "trigger": false
     },
-    "POKT": {
+    "TURT": {
       "per": -0.58,
       "buy_exchange": null,
       "sell_exchange": null,
       "trigger": false
     },
-    "WEST": {
-      "per": -0.91,
+    "AGLD": {
+      "per": -0.58,
       "buy_exchange": null,
       "sell_exchange": null,
       "trigger": false
     },
-    "MTV": {
-      "per": -0.96,
+    "FORTH": {
+      "per": -0.62,
+      "buy_exchange": null,
+      "sell_exchange": null,
+      "trigger": false
+    },
+    "WEST": {
+      "per": -1.55,
       "buy_exchange": null,
       "sell_exchange": null,
       "trigger": false
@@ -59,296 +53,266 @@
     "MEXC": {
       "ORDI": {
         "data": {
-          "buy": "76.07",
-          "sell": "75.84",
+          "buy": "73.29",
+          "sell": "73.21",
           "volume": 0,
           "per_change": 0
         },
-        "lastupdate": 1703512171
-      },
-      "METIS": {
-        "data": {
-          "buy": "57.22",
-          "sell": "57",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512170
-      },
-      "AXS": {
-        "data": {
-          "buy": "10.424",
-          "sell": "10.373",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "RATS": {
-        "data": {
-          "buy": "0.0004461",
-          "sell": "0.0004451",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "POKT": {
-        "data": {
-          "buy": "0.15781",
-          "sell": "0.15609",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "MTV": {
-        "data": {
-          "buy": "0.0026479",
-          "sell": "0.002582",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "DEGO": {
-        "data": {
-          "buy": "3.6647",
-          "sell": "3.6498",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "SCLP": {
-        "data": {
-          "buy": "0.2347",
-          "sell": "0.2314",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512171
-      },
-      "LMWR": {
-        "data": {
-          "buy": "0.3451",
-          "sell": "0.3444",
-          "volume": 0,
-          "per_change": 0
-        },
-        "lastupdate": 1703512119
+        "lastupdate": 1703525862
       },
       "AGLD": {
         "data": {
-          "buy": "1.521",
-          "sell": "1.518",
+          "buy": "1.532",
+          "sell": "1.529",
           "volume": 0,
           "per_change": 0
         },
-        "lastupdate": 1703512162
+        "lastupdate": 1703525862
+      },
+      "METIS": {
+        "data": {
+          "buy": "57.98",
+          "sell": "57.83",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525862
+      },
+      "TURT": {
+        "data": {
+          "buy": "0.07927",
+          "sell": "0.07888",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525861
+      },
+      "POKT": {
+        "data": {
+          "buy": "0.15886",
+          "sell": "0.15594",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525862
+      },
+      "SATS": {
+        "data": {
+          "buy": "0.0000008068",
+          "sell": "0.0000008032",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525862
+      },
+      "DEGO": {
+        "data": {
+          "buy": "3.4414",
+          "sell": "3.4052",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525862
+      },
+      "FORTH": {
+        "data": {
+          "buy": "5.115",
+          "sell": "5.093",
+          "volume": 0,
+          "per_change": 0
+        },
+        "lastupdate": 1703525862
       }
     },
     "KUCOIN": {
-      "MTV": {
-        "data": {
-          "buy": 0.0026444,
-          "sell": 0.002628,
-          "volume": 1237573.25,
-          "per_change": 0.3377
-        },
-        "lastupdate": 1703512170
-      },
       "ORDI": {
         "data": {
-          "buy": 75.8795,
-          "sell": 75.8176,
-          "volume": 9504340.11,
-          "per_change": 0.3845
+          "buy": 73.2286,
+          "sell": 73.2208,
+          "volume": 12780053.1,
+          "per_change": 0.3553
         },
-        "lastupdate": 1703512170
+        "lastupdate": 1703525862
       },
-      "RATS": {
+      "TURT": {
         "data": {
-          "buy": 0.00044639,
-          "sell": 0.00044533,
-          "volume": 7424379.72,
-          "per_change": 0.3699
+          "buy": 0.07961,
+          "sell": 0.07909,
+          "volume": 827366.92,
+          "per_change": 0.4186
         },
-        "lastupdate": 1703512170
+        "lastupdate": 1703525848
       },
-      "KDA": {
+      "SATS": {
         "data": {
-          "buy": 1.4681,
-          "sell": 1.4663,
-          "volume": 32591494.28,
-          "per_change": 0.4015
+          "buy": 8.046e-07,
+          "sell": 8.033e-07,
+          "volume": 5228666.05,
+          "per_change": 0.2719
         },
-        "lastupdate": 1703512170
+        "lastupdate": 1703525862
       },
-      "AXS": {
+      "AGLD": {
         "data": {
-          "buy": 10.391,
-          "sell": 10.382,
-          "volume": 3985702.12,
-          "per_change": 0.2925
+          "buy": 1.533,
+          "sell": 1.5293,
+          "volume": 298153.5,
+          "per_change": 0.2731
         },
-        "lastupdate": 1703512170
+        "lastupdate": 1703525862
       },
       "METIS": {
         "data": {
-          "buy": 56.82,
-          "sell": 56.61,
-          "volume": 2866151.01,
-          "per_change": 0.419
+          "buy": 58.18,
+          "sell": 57.96,
+          "volume": 3872654.25,
+          "per_change": 0.4315
         },
-        "lastupdate": 1703512170
-      },
-      "DEGO": {
-        "data": {
-          "buy": 3.6601,
-          "sell": 3.66,
-          "volume": 2679373.86,
-          "per_change": 0.4546
-        },
-        "lastupdate": 1703512170
-      },
-      "POKT": {
-        "data": {
-          "buy": 0.15782,
-          "sell": 0.15685,
-          "volume": 656719.74,
-          "per_change": 0.4523
-        },
-        "lastupdate": 1703512168
+        "lastupdate": 1703525860
       },
       "WEST": {
         "data": {
-          "buy": 0.006049,
-          "sell": 0.006018,
-          "volume": 54619.42,
-          "per_change": 0.312
+          "buy": 0.005933,
+          "sell": 0.005865,
+          "volume": 56802.05,
+          "per_change": 0.29
         },
-        "lastupdate": 1703511870
+        "lastupdate": 1703525620
       },
-      "MONI": {
+      "POKT": {
         "data": {
-          "buy": 0.03485,
-          "sell": 0.03458,
-          "volume": 210130.73,
-          "per_change": 0.2929
+          "buy": 0.15433,
+          "sell": 0.15388,
+          "volume": 774854.05,
+          "per_change": 0.4289
         },
-        "lastupdate": 1703512170
+        "lastupdate": 1703525858
+      },
+      "XYO": {
+        "data": {
+          "buy": 0.007469,
+          "sell": 0.007444,
+          "volume": 939149.8,
+          "per_change": 0.2395
+        },
+        "lastupdate": 1703525858
+      },
+      "FORTH": {
+        "data": {
+          "buy": 5.1052,
+          "sell": 5.08,
+          "volume": 530678.18,
+          "per_change": 0.3559
+        },
+        "lastupdate": 1703525862
+      },
+      "RATS": {
+        "data": {
+          "buy": 0.00039151,
+          "sell": 0.00039122,
+          "volume": 9100536.66,
+          "per_change": 0.2437
+        },
+        "lastupdate": 1703525862
       }
     },
     "GATEIO": {
-      "RATS": {
-        "data": {
-          "buy": "0.00044567",
-          "sell": "0.00044499",
-          "volume": 33016738.98,
-          "per_change": "37.201"
-        },
-        "lastupdate": 1703512171
-      },
-      "KDA": {
-        "data": {
-          "buy": "1.4678",
-          "sell": "1.4651",
-          "volume": 27299172.38,
-          "per_change": "37.2404"
-        },
-        "lastupdate": 1703512170
-      },
       "ORDI": {
         "data": {
-          "buy": "75.81",
-          "sell": "75.71",
-          "volume": 26116979.13,
-          "per_change": "38.2176"
+          "buy": "73.14",
+          "sell": "73.12",
+          "volume": 34893973.09,
+          "per_change": "35.5317"
         },
-        "lastupdate": 1703512171
+        "lastupdate": 1703525862
       },
-      "AXS": {
+      "SATS": {
         "data": {
-          "buy": "10.403",
-          "sell": "10.378",
-          "volume": 2283347.12,
-          "per_change": "29.5057"
+          "buy": "0.0000008041",
+          "sell": "0.0000008029",
+          "volume": 25677817.17,
+          "per_change": "27.3721"
         },
-        "lastupdate": 1703512171
+        "lastupdate": 1703525862
       },
-      "METIS": {
+      "AGLD": {
         "data": {
-          "buy": "56.695",
-          "sell": "56.569",
-          "volume": 6239897.12,
-          "per_change": "41.4785"
+          "buy": "1.5327",
+          "sell": "1.5279",
+          "volume": 450287.38,
+          "per_change": "26.9256"
         },
-        "lastupdate": 1703512171
+        "lastupdate": 1703525862
       },
-      "DEGO": {
+      "TURT": {
         "data": {
-          "buy": "3.6532",
-          "sell": "3.6496",
-          "volume": 1626388.31,
-          "per_change": "44.2764"
+          "buy": "0.07927",
+          "sell": "0.07913",
+          "volume": 1605147.26,
+          "per_change": "41.5817"
         },
-        "lastupdate": 1703512170
-      },
-      "WEST": {
-        "data": {
-          "buy": "0.006053",
-          "sell": "0.005965",
-          "volume": 31763.57,
-          "per_change": "29.7"
-        },
-        "lastupdate": 1703512160
+        "lastupdate": 1703525857
       },
       "POKT": {
         "data": {
-          "buy": "0.1575",
-          "sell": "0.15721",
-          "volume": 3443775.6,
-          "per_change": "45.1167"
+          "buy": "0.15399",
+          "sell": "0.15352",
+          "volume": 4075280.87,
+          "per_change": "41.7737"
         },
-        "lastupdate": 1703512162
+        "lastupdate": 1703525856
       },
-      "MTV": {
+      "METIS": {
         "data": {
-          "buy": "0.0026428",
-          "sell": "0.0026089",
-          "volume": 380221.62,
-          "per_change": "33.2826"
+          "buy": "58.142",
+          "sell": "58.025",
+          "volume": 8711747.97,
+          "per_change": "42.9996"
         },
-        "lastupdate": 1703512171
+        "lastupdate": 1703525853
       },
-      "MLS": {
+      "WEST": {
         "data": {
-          "buy": "0.06357",
-          "sell": "0.06294",
-          "volume": 29696.36,
-          "per_change": "24.4689"
+          "buy": "0.006007",
+          "sell": "0.005843",
+          "volume": 32479.62,
+          "per_change": "29.8926"
         },
-        "lastupdate": 1703512129
+        "lastupdate": 1703525832
+      },
+      "DEGO": {
+        "data": {
+          "buy": "3.4325",
+          "sell": "3.4093",
+          "volume": 1633811.22,
+          "per_change": "20.9713"
+        },
+        "lastupdate": 1703525862
+      },
+      "FORTH": {
+        "data": {
+          "buy": "5.104",
+          "sell": "5.085",
+          "volume": 373203.14,
+          "per_change": "35.3425"
+        },
+        "lastupdate": 1703525862
       }
     }
   },
   "trigger_list": [],
   "current_symbol_list": [
+    "TURT",
     "POKT",
     "METIS",
-    "DEGO",
-    "MTV",
     "ORDI",
+    "SATS",
+    "AGLD",
+    "MUBI",
     "RATS",
-    "AXS",
-    "KDA",
     "WEST",
-    "MONI",
-    "MLS",
-    "SCLP",
-    "SOLS",
-    "LMWR",
-    "AGLD"
+    "XYO",
+    "DEGO",
+    "FORTH"
   ]
 }

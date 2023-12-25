@@ -90,9 +90,9 @@ class Mexc(Client):
                         "params": methods[method]
                     }
                     self.ws.send(json.dumps(subscribe_message))
-                    print(subscribe_message, self.exchange)
+                    # print(subscribe_message, self.exchange)
                     if method == "UNSUBSCRIPTION":
-                        print(remove_symbols, "remove_symbols" , self.exchange)
+                        # print(remove_symbols, "remove_symbols" , self.exchange)
                         for rm_symbol in remove_symbols:
                              if self.orderbook["MEXC"].get(rm_symbol):
                                 del self.orderbook["MEXC"][rm_symbol]

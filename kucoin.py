@@ -89,10 +89,10 @@ class Kucoin(Client):
                     }
                     self.ws.send(json.dumps(subscribe_message))
 
-                    print(subscribe_message, self.exchange)
+                    # print(subscribe_message, self.exchange)
 
                     if method == "unsubscribe":
-                        print(remove_symbols, "remove_symbols", self.exchange)
+                        # print(remove_symbols, "remove_symbols", self.exchange)
                         for rm_symbol in remove_symbols:
                             if self.orderbook["KUCOIN"].get(rm_symbol):
                                 del self.orderbook["KUCOIN"][rm_symbol]

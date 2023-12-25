@@ -236,9 +236,6 @@ class Mythread(threading.Thread):
         calculated_data["current_symbol_list"] = current_symbol_list
         Queue_jsondata = calculated_data
 
-        with open("arbi.json" , "w+")as f:
-            json.dump(Queue_jsondata, f, indent=2)
-
     async def stop(self):
         self.stop_event = True
 
@@ -292,9 +289,6 @@ async def pairsRetrive(exchange_detailes, data):
         async with aiohttp.ClientSession() as session:
             async with session.get(exchange_detailes[i]["top"]) as response:
                 symbols_list = await response.json()
-
-                with open("temp.json", "w+")as f:
-                    json.dump(symbols_list , f, indent=2)
 
                 for key in  exchange_detailes[i]["top_path"]:    
                     symbols_list = symbols_list.get(key)

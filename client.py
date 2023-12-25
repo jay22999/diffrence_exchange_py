@@ -25,44 +25,6 @@ class Client(threading.Thread):
     def run(self):
         self.ws.run_forever(ping_interval=1700, ping_timeout=60, reconnect=5)
         
-    def pair_manager(self , sorted_dict_bool):
-        print(self.exchange, sorted_dict_bool)
-        # if sorted_dict_bool:
-            
-        #     new_added_symbols = list(set(self.kucoin_top_pair_list) - set(self.current_symbol_dict[self.top_exchange])) if self.is_top else list(set(self.current_symbol_dict[self.top_exchange]) - set(self.kucoin_top_pair_list))
-        #     remove_symbols = list(set(self.current_symbol_dict[self.top_exchange]) - set(self.kucoin_top_pair_list)) if self.is_top else list(set(self.kucoin_top_pair_list) - set(self.current_symbol_dict[self.top_exchange]))
-            
-            
-        #     added_items = [f'{symbol}-USDT' for symbol in new_added_symbols if symbol in list(self.sorted_data[self.exchange].keys())]
-        #     added_items = f"/market/snapshot:{','.join(added_items)}" if len(added_items) != 0 else None
-            
-
-        #     removed_items = [f'{symbol}-USDT' for symbol in remove_symbols if symbol in list(self.sorted_data[self.exchange].keys())]
-        #     removed_items = f"/market/snapshot:{','.join(removed_items)}" if len(removed_items) != 0 else None
-
-        #     self.current_symbol_dict[self.exchange] = self.kucoin_top_pair_list
-        #     self.copy_top_pairs = self.current_symbol_dict[self.top_exchange]
-                    
-        #     methods = {"unsubscribe" : removed_items , "subscribe" : added_items}
-        
-        #     for method in methods:
-        #         if methods[method] != None :
-        #             subscribe_message = {
-        #                 "type": method,
-        #                 "topic": methods[method]
-        #             }
-        #             self.ws.send(json.dumps(subscribe_message))
-
-        #             print(subscribe_message, self.exchange)
-
-        #             if method == "unsubscribe":
-        #                 print(remove_symbols, "remove_symbols", self.exchange)
-        #                 for rm_symbol in remove_symbols:
-        #                     if self.orderbook["KUCOIN"].get(rm_symbol):
-        #                         del self.orderbook["KUCOIN"][rm_symbol]
-                
-
-    # catch errors
     def on_error(self, ws, error):
         print(f"{self.exchange} on_error: {error}")
 
